@@ -1,0 +1,13 @@
+body{
+    height: 100%;
+    background-image: linear-gradient(to top,#025c07, #32ec7c, rgb(128, 236, 161));
+}
+h1{
+    color: #045c21;
+}
+h2{
+    color: #079938;
+}
+p{
+    color: #07db4e;
+}

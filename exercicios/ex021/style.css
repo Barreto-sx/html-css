@@ -1,0 +1,56 @@
+ body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border: 10px groove gainsboro;
+            border-radius: 5px;
+        }
+        nav{
+            background-color: gray;
+            padding: 4px;
+            box-shadow: 3px 3px 5px 2px #00000070;
+        }
+        nav > a{
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+            text-align: center;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border: 10px groove gainsboro;
+            border-radius: 5px;
+        }
+        footer{
+            padding: 5px;
+            margin: auto;
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+        footer > p{ 
+            margin: 1px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+        article > aside{
+            text-align: center;
+            background-color: rgb(165, 165, 165);
+            width: 250px;
+            margin: 10px;
+            border-radius: 10px;
+        }
