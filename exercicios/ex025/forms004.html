@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        *{
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>teste de formulario</h1>
+    <fieldset>
+        <legend>dados pesspais</legend>
+        <form action="cadastro.php" method="get">
+            <div>
+                <label for="iemail">e-mail</label>
+                <input type="email" name="email" id="iemail" autocomplete="email">
+            </div>
+            <div>
+                <label for="itel">telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+            </div>
+            <div>
+                <label for="iurl">link </label>
+                <input type="url" name="url" id="iurl">
+            </div>
+    </fieldset>
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+    </form>
+</body>
+</html>
