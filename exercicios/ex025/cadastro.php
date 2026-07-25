@@ -1,1 +1,0 @@
-os dados ta por ai,se vira
