@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+      div{
+        margin: 3px;
+      }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+      <div>
+        <label for="icor">cor: </label>
+        <input type="color" name="cor" id="icor">
+      </div>
+      <div>
+        <label for="ifel">felicidade</label>
+        <input type="range" name="fel" id="ifel">
+      </div>
+      <div>
+        <label for="ifile">file: </label>
+        <input type="file" name="file" id="ifile">
+      </div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+      </p>
+    </form>
+</body>
+</html>
