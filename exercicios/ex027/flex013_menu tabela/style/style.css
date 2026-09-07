@@ -21,16 +21,19 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.767);
 }
 header > nav{
-    border: dotted 1px black;
+    /*border: dotted 1px black;*/
 
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    align-items: center;
     justify-content: flex-end;
 }
 header > nav > a{
